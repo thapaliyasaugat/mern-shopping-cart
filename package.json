@@ -1,0 +1,21 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node back/server.js",
+    "server": "nodemon back/server.js",
+    "client": "npm start --prefix front",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node back/seederScript.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  }
+}

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
